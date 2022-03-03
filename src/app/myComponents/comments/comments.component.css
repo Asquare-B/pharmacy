@@ -11,6 +11,13 @@
   font-family: 'Artifika', serif;
   font-weight: 500;
 }
+.service .title h5{
+  font-size: 15px;
+}
+
+.service .title h1{
+  font-size: 30px;
+}
 
 
 .service{

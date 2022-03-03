@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
 .myhead{
     padding: 0px 45px;
+    margin-top: 30px;
 }
 
 .card{
@@ -10,6 +11,7 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color:#ccffe1;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .card img{
@@ -52,7 +54,7 @@
 }
 
 h2{
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 600;
     color: #4f585e;
     font-family: 'Artifika', serif;
