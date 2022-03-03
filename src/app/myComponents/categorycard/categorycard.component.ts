@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , Input} from '@angular/core';
 
 @Component({
   selector: 'app-categorycard',
@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class CategorycardComponent implements OnInit {
 
   constructor() { }
+
+  @Input()
+  title!: string;
+  @Input()
+  link!: string;
 
   ngOnInit(): void {
   }

@@ -66,6 +66,7 @@ import { CommentcardComponent } from './myComponents/commentcard/commentcard.com
 import { CommentsComponent } from './myComponents/comments/comments.component';
 import { SubscribeComponent } from './myComponents/subscribe/subscribe.component';
 import { MembercardComponent } from './myComponents/membercard/membercard.component';
+import { CardviewComponent } from './myComponents/cardview/cardview.component';
 
 
 @NgModule({
@@ -89,6 +90,7 @@ import { MembercardComponent } from './myComponents/membercard/membercard.compon
     CommentsComponent,
     SubscribeComponent,
     MembercardComponent,
+    CardviewComponent,
   ],
   imports: [
     CommonModule,
