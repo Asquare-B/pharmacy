@@ -1,7 +1,5 @@
-.feature{
+.item{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px 0px;
 }

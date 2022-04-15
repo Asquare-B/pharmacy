@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pharmacy';
+  onActivate(){
+    window.scroll(0,0);
+  }
 }

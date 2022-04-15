@@ -67,6 +67,31 @@ import { CommentsComponent } from './myComponents/comments/comments.component';
 import { SubscribeComponent } from './myComponents/subscribe/subscribe.component';
 import { MembercardComponent } from './myComponents/membercard/membercard.component';
 import { CardviewComponent } from './myComponents/cardview/cardview.component';
+import { RouterModule } from '@angular/router';
+import { SpHomeComponent } from './myComponents/sp-home/sp-home.component';
+import { SpHeaderComponent } from './myComponents/sp-header/sp-header.component';
+import { SpFilterComponent } from './myComponents/sp-filter/sp-filter.component';
+import { SpCarditemComponent } from './myComponents/sp-carditem/sp-carditem.component';
+import { SpProductComponent } from './myComponents/sp-product/sp-product.component';
+import { SpFooterComponent } from './myComponents/sp-footer/sp-footer.component';
+import { SpItempageComponent } from './myComponents/sp-itempage/sp-itempage.component';
+import { SpAddfilterComponent } from './myComponents/sp-addfilter/sp-addfilter.component';
+import { CarthomeComponent } from './myComponents/carthome/carthome.component';
+import { CartItemComponent } from './myComponents/cart-item/cart-item.component';
+import { CartItemcardComponent } from './myComponents/cart-itemcard/cart-itemcard.component';
+import { CartDetailsComponent } from './myComponents/cart-details/cart-details.component';
+import { CartTotalComponent } from './myComponents/cart-total/cart-total.component';
+import { CartAddonsComponent } from './myComponents/cart-addons/cart-addons.component';
+import { CartPremiumComponent } from './myComponents/cart-premium/cart-premium.component';
+import { OfferhomeComponent } from './myComponents/offerhome/offerhome.component';
+import { OfferHeadComponent } from './myComponents/offer-head/offer-head.component';
+import { OfferCardlistComponent } from './myComponents/offer-cardlist/offer-cardlist.component';
+import { OfferCarditemComponent } from './myComponents/offer-carditem/offer-carditem.component';
+import { OfferFaqComponent } from './myComponents/offer-faq/offer-faq.component';
+import { OfferdetailhomeComponent } from './myComponents/offerdetailhome/offerdetailhome.component';
+import { OfferdetailCarditemComponent } from './myComponents/offerdetail-carditem/offerdetail-carditem.component';
+import { OfferdetailInfoComponent } from './myComponents/offerdetail-info/offerdetail-info.component';
+import { OfferdetailSidebarComponent } from './myComponents/offerdetail-sidebar/offerdetail-sidebar.component';
 
 
 @NgModule({
@@ -91,6 +116,30 @@ import { CardviewComponent } from './myComponents/cardview/cardview.component';
     SubscribeComponent,
     MembercardComponent,
     CardviewComponent,
+    SpHomeComponent,
+    SpHeaderComponent,
+    SpFilterComponent,
+    SpCarditemComponent,
+    SpProductComponent,
+    SpFooterComponent,
+    SpItempageComponent,
+    SpAddfilterComponent,
+    CarthomeComponent,
+    CartItemComponent,
+    CartItemcardComponent,
+    CartDetailsComponent,
+    CartTotalComponent,
+    CartAddonsComponent,
+    CartPremiumComponent,
+    OfferhomeComponent,
+    OfferHeadComponent,
+    OfferCardlistComponent,
+    OfferCarditemComponent,
+    OfferFaqComponent,
+    OfferdetailhomeComponent,
+    OfferdetailCarditemComponent,
+    OfferdetailInfoComponent,
+    OfferdetailSidebarComponent,
   ],
   imports: [
     CommonModule,
@@ -128,7 +177,12 @@ import { CardviewComponent } from './myComponents/cardview/cardview.component';
     MatTooltipModule,
     MatPaginatorModule,
     MatSortModule,
-    MatTableModule
+    MatTableModule,
+    RouterModule.forRoot([
+      {path: 'home', component: HomeComponent},
+      {path: 'shop', component: SpHomeComponent},
+      {path: '', redirectTo: '/home', pathMatch: 'full'},
+    ]),
   ],
   exports: [
     MatAutocompleteModule,
