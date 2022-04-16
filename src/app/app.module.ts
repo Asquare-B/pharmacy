@@ -101,6 +101,10 @@ import { ShopingCarditemComponent } from './myComponents/shoping-carditem/shopin
 import { ProducthomeComponent } from './myComponents/producthome/producthome.component';
 import { PdHeaderComponent } from './myComponents/pd-header/pd-header.component';
 import { PdItemcardComponent } from './myComponents/pd-itemcard/pd-itemcard.component';
+import { PdDetailsComponent } from './myComponents/pd-details/pd-details.component';
+import { PdReviewsComponent } from './myComponents/pd-reviews/pd-reviews.component';
+import { PdSidebarComponent } from './myComponents/pd-sidebar/pd-sidebar.component';
+import { PdSideofferComponent } from './myComponents/pd-sideoffer/pd-sideoffer.component';
 
 
 @NgModule({
@@ -158,6 +162,10 @@ import { PdItemcardComponent } from './myComponents/pd-itemcard/pd-itemcard.comp
     ProducthomeComponent,
     PdHeaderComponent,
     PdItemcardComponent,
+    PdDetailsComponent,
+    PdReviewsComponent,
+    PdSidebarComponent,
+    PdSideofferComponent,
   ],
   imports: [
     CommonModule,

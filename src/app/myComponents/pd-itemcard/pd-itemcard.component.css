@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Artifika&family=Courgette&family=Righteous&display=swap');
+/*    font-family: 'Abril Fatface', cursive;
+
+    font-family: 'Artifika', serif;
+
+    font-family: 'Courgette', cursive;
+
+    font-family: 'Righteous', cursive;*/
+.con1{
+    width: 700px;
+}
+.card{
+    background-color: aquamarine;
+    margin: 10px 15px;
+    border: 1px;
+    border-style: dashed;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.head #name{
+    font-size: 38px;
+    font-family: 'Artifika', serif;
+    font-weight: 600;
+}
+
+.head #by{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.head #price{
+    font-size: 20px;
+}
+
+.selection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+select{
+    font-size: 15px;
+    width: 100px;
+    padding: 10px;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgba(37, 253, 37, 0.333);
+}
