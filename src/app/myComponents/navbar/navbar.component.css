@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-top: 10px;
-    
+    background-color: rgba(61, 255, 216, 0.3);
   }
 
   .left, .right{

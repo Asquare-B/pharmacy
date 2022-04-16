@@ -68,14 +68,6 @@ import { SubscribeComponent } from './myComponents/subscribe/subscribe.component
 import { MembercardComponent } from './myComponents/membercard/membercard.component';
 import { CardviewComponent } from './myComponents/cardview/cardview.component';
 import { RouterModule } from '@angular/router';
-import { SpHomeComponent } from './myComponents/sp-home/sp-home.component';
-import { SpHeaderComponent } from './myComponents/sp-header/sp-header.component';
-import { SpFilterComponent } from './myComponents/sp-filter/sp-filter.component';
-import { SpCarditemComponent } from './myComponents/sp-carditem/sp-carditem.component';
-import { SpProductComponent } from './myComponents/sp-product/sp-product.component';
-import { SpFooterComponent } from './myComponents/sp-footer/sp-footer.component';
-import { SpItempageComponent } from './myComponents/sp-itempage/sp-itempage.component';
-import { SpAddfilterComponent } from './myComponents/sp-addfilter/sp-addfilter.component';
 import { CarthomeComponent } from './myComponents/carthome/carthome.component';
 import { CartItemComponent } from './myComponents/cart-item/cart-item.component';
 import { CartItemcardComponent } from './myComponents/cart-itemcard/cart-itemcard.component';
@@ -92,6 +84,23 @@ import { OfferdetailhomeComponent } from './myComponents/offerdetailhome/offerde
 import { OfferdetailCarditemComponent } from './myComponents/offerdetail-carditem/offerdetail-carditem.component';
 import { OfferdetailInfoComponent } from './myComponents/offerdetail-info/offerdetail-info.component';
 import { OfferdetailSidebarComponent } from './myComponents/offerdetail-sidebar/offerdetail-sidebar.component';
+import { ShophomeComponent } from './myComponents/shophome/shophome.component';
+import { ShopHome1Component } from './myComponents/shop-home1/shop-home1.component';
+import { ShopHome2Component } from './myComponents/shop-home2/shop-home2.component';
+import { ShopHeaderComponent } from './myComponents/shop-header/shop-header.component';
+import { ShopSearchComponent } from './myComponents/shop-search/shop-search.component';
+import { ShopPrescritionComponent } from './myComponents/shop-prescrition/shop-prescrition.component';
+import { ShopOfferComponent } from './myComponents/shop-offer/shop-offer.component';
+import { ShopTestimonialsComponent } from './myComponents/shop-testimonials/shop-testimonials.component';
+import { ShopFaqComponent } from './myComponents/shop-faq/shop-faq.component';
+import { ShopinghomeComponent } from './myComponents/shopinghome/shopinghome.component';
+import { ShopingHeaderComponent } from './myComponents/shoping-header/shoping-header.component';
+import { ShopingItemgridComponent } from './myComponents/shoping-itemgrid/shoping-itemgrid.component';
+import { ShopingSidefilterComponent } from './myComponents/shoping-sidefilter/shoping-sidefilter.component';
+import { ShopingCarditemComponent } from './myComponents/shoping-carditem/shoping-carditem.component';
+import { ProducthomeComponent } from './myComponents/producthome/producthome.component';
+import { PdHeaderComponent } from './myComponents/pd-header/pd-header.component';
+import { PdItemcardComponent } from './myComponents/pd-itemcard/pd-itemcard.component';
 
 
 @NgModule({
@@ -116,14 +125,6 @@ import { OfferdetailSidebarComponent } from './myComponents/offerdetail-sidebar/
     SubscribeComponent,
     MembercardComponent,
     CardviewComponent,
-    SpHomeComponent,
-    SpHeaderComponent,
-    SpFilterComponent,
-    SpCarditemComponent,
-    SpProductComponent,
-    SpFooterComponent,
-    SpItempageComponent,
-    SpAddfilterComponent,
     CarthomeComponent,
     CartItemComponent,
     CartItemcardComponent,
@@ -140,6 +141,23 @@ import { OfferdetailSidebarComponent } from './myComponents/offerdetail-sidebar/
     OfferdetailCarditemComponent,
     OfferdetailInfoComponent,
     OfferdetailSidebarComponent,
+    ShophomeComponent,
+    ShopHome1Component,
+    ShopHome2Component,
+    ShopHeaderComponent,
+    ShopSearchComponent,
+    ShopPrescritionComponent,
+    ShopOfferComponent,
+    ShopTestimonialsComponent,
+    ShopFaqComponent,
+    ShopinghomeComponent,
+    ShopingHeaderComponent,
+    ShopingItemgridComponent,
+    ShopingSidefilterComponent,
+    ShopingCarditemComponent,
+    ProducthomeComponent,
+    PdHeaderComponent,
+    PdItemcardComponent,
   ],
   imports: [
     CommonModule,
@@ -180,7 +198,6 @@ import { OfferdetailSidebarComponent } from './myComponents/offerdetail-sidebar/
     MatTableModule,
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
-      {path: 'shop', component: SpHomeComponent},
       {path: '', redirectTo: '/home', pathMatch: 'full'},
     ]),
   ],
