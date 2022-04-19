@@ -105,6 +105,13 @@ import { PdDetailsComponent } from './myComponents/pd-details/pd-details.compone
 import { PdReviewsComponent } from './myComponents/pd-reviews/pd-reviews.component';
 import { PdSidebarComponent } from './myComponents/pd-sidebar/pd-sidebar.component';
 import { PdSideofferComponent } from './myComponents/pd-sideoffer/pd-sideoffer.component';
+import { SignupComponent } from './myComponents/signup/signup.component';
+import { LoginComponent } from './myComponents/login/login.component';
+import { ContacthomeComponent } from './myComponents/contacthome/contacthome.component';
+import { Contactcard2Component } from './myComponents/contactcard2/contactcard2.component';
+import { AboutushomeComponent } from './myComponents/aboutushome/aboutushome.component';
+import { AboutustopComponent } from './myComponents/aboutustop/aboutustop.component';
+import { AboutusmidComponent } from './myComponents/aboutusmid/aboutusmid.component';
 
 
 @NgModule({
@@ -166,6 +173,13 @@ import { PdSideofferComponent } from './myComponents/pd-sideoffer/pd-sideoffer.c
     PdReviewsComponent,
     PdSidebarComponent,
     PdSideofferComponent,
+    SignupComponent,
+    LoginComponent,
+    ContacthomeComponent,
+    Contactcard2Component,
+    AboutushomeComponent,
+    AboutustopComponent,
+    AboutusmidComponent,
   ],
   imports: [
     CommonModule,

@@ -7,10 +7,10 @@
 
     font-family: 'Righteous', cursive;*/
 .con1{
-    width: 600px;
+    width: 700px;
 }
 .card{
-    background-color: aquamarine;
+    background-color: rgba(123, 255, 108, 0.2);
     margin: 10px 15px;
     border: 1px;
     border-style: dashed;
@@ -30,7 +30,7 @@
 .right{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    justify-content: center;
     margin-left: 50px;
 }
 
