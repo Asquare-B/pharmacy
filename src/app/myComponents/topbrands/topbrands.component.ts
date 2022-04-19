@@ -99,14 +99,14 @@ export class TopbrandsComponent implements OnInit {
   getColor(index :number) : string {
     if(index%3==0)
     {
-      return '#ccffe1';
+      return '#00a26c13';
     }
     else if (index%2==0)
     {
-      return '#f6ffe5';
+      return '#a2003613';
     }
     else{
-      return '#b4defa';
+      return '#a2a20013';
     }
   }
 
