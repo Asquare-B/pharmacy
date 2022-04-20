@@ -19,6 +19,7 @@
 }
 
 .address{
+    width: 300px;
     margin-top: 10px;
     border: 2px;
     background-color: deepskyblue;

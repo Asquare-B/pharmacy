@@ -112,6 +112,10 @@ import { Contactcard2Component } from './myComponents/contactcard2/contactcard2.
 import { AboutushomeComponent } from './myComponents/aboutushome/aboutushome.component';
 import { AboutustopComponent } from './myComponents/aboutustop/aboutustop.component';
 import { AboutusmidComponent } from './myComponents/aboutusmid/aboutusmid.component';
+import { SigninComponent } from './myComponents/signin/signin.component';
+import { Signin1Component } from './myComponents/signin1/signin1.component';
+import { DialogAddressComponent } from './myComponents/dialog-address/dialog-address.component';
+import { FaqhomeComponent } from './myComponents/faqhome/faqhome.component';
 
 
 @NgModule({
@@ -180,6 +184,10 @@ import { AboutusmidComponent } from './myComponents/aboutusmid/aboutusmid.compon
     AboutushomeComponent,
     AboutustopComponent,
     AboutusmidComponent,
+    SigninComponent,
+    Signin1Component,
+    DialogAddressComponent,
+    FaqhomeComponent,
   ],
   imports: [
     CommonModule,

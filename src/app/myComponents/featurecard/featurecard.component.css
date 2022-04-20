@@ -16,14 +16,15 @@
 .header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-items: center;
     align-items: center;
     font-size: 14px;
     font-weight: 500;
+    width: 80%;
 }
 
 .header i{
-    font-size: 40px;
+    font-size: 35px;
     margin: 10px 0px;
     padding-right:20px;
     color: #00ffa2b2;
