@@ -228,6 +228,10 @@ import { FaqhomeComponent } from './myComponents/faqhome/faqhome.component';
     MatTableModule,
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
+      {path: 'faq', component: FaqhomeComponent},
+      {path: 'aboutus', component: AboutushomeComponent},
+      {path: 'contactus', component: ContacthomeComponent },
+      {path: 'signin', component: SigninComponent},
       {path: '', redirectTo: '/home', pathMatch: 'full'},
     ]),
   ],
